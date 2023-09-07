@@ -139,7 +139,7 @@ public class TechJobs {
                 System.out.println("core competency: " + job.get("core competency"));
                 // Print a blank line after each listing
                 System.out.println("*****");
-                // Print asterisks and a blank line after each listing
+
             }
         }
     }
