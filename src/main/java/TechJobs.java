@@ -123,8 +123,6 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         if (someJobs.isEmpty()) {
             // Print "No Results" message if there are no jobs to display
-            System.out.println("Search term:");
-            System.out.println("Example Search Term with No Results");
             System.out.print("No Results");
         } else {
             for (HashMap<String, String> job : someJobs) {
